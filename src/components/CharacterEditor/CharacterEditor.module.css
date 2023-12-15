@@ -4,6 +4,8 @@
 }
 
 .maxWidthWrapper {
+  display: inline-block;
+  max-width: 65%;
 }
 
 .header {
@@ -24,7 +26,14 @@
 }
 
 .characterWrapper {
+  display: inline-block;
+  position: fixed;
+  min-height: 500px;
+  min-width: 35%;
 }
 
 .controlColumn {
+  max-width: 75%;
 }
+
+
